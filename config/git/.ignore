@@ -1,0 +1,61 @@
+# ===============================================
+# Global .gitignore File
+# ===============================================
+#
+# Specifies files that should be ignored in every
+# git repository.
+#
+# Mostly lifted from various .gitignore files from
+# https://github.com/github/gitignore and others.
+#
+# ===============================================
+
+# OS X System Files
+# -----------------------------------------------
+.DS_Store
+.Trashes
+.Spotlight-V100
+._*
+
+# Subversion & Mercurial
+# -----------------------------------------------
+.svn/
+/.hg/*
+*/.hg/*
+.hgignore
+
+# Compiled files
+# -----------------------------------------------
+*.class
+*.pyc
+
+# Archive files
+# -----------------------------------------------
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# SublimeText-specific files
+# -----------------------------------------------
+*.sublime-workspace
+
+# Intellij-specifc files
+# -----------------------------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
