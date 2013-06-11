@@ -1,0 +1,3 @@
+[submodule "config/ranger"]
+	path = config/ranger
+	url = git@github.com:atheriel/ranger-config.git
