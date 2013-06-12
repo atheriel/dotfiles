@@ -32,7 +32,7 @@ trap exit_bash EXIT
 # Aliases
 # -----------------------------------------------
 alias ls="ls -ahlG"
-alias b="cd .."
+alias irssi="irssi --home=~/.config/irssi"
 alias minfo="~/.scripts/minfo.sh"
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -I rc'
 
