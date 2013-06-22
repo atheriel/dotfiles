@@ -21,4 +21,4 @@
 [include]
 	path = ~/.config/git/aliases		# Aliases
 	path = ~/.config/git/colours		# Colour Configuration
-	path = ~/.config/git/user			# User Fields [encrypted in remote repo]
+	path = ~/.config/git/user		    # User Fields
