@@ -1,0 +1,24 @@
+# ===============================================
+# Global Git Configuration
+# ===============================================
+
+
+[core]
+	autocrlf = input
+	excludesfile = ~/.config/git/ignore
+	eol = lf
+	editor = subl
+	pager = less -FRSX
+
+
+[branch]
+	autosetuprebase = always
+
+
+# Source Sub-Configuration Files
+# -----------------------------------------------
+
+[include]
+	path = ~/.config/git/aliases		# Aliases
+	path = ~/.config/git/colours		# Colour Configuration
+	path = ~/.config/git/user			# User Fields [encrypted in remote repo]

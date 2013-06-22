@@ -1,0 +1,8 @@
+# ===============================================
+# Git Alias Configuration
+# ===============================================
+
+[alias]
+	a = add .
+	cam = commit -am
+	mpush = push -u origin master
